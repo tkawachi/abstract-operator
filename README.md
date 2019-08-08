@@ -3,7 +3,7 @@
 [![Build status](https://travis-ci.org/jvm-operators/abstract-operator.svg?branch=master)](https://travis-ci.org/jvm-operators/abstract-operator)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-`{CRD|ConfigMap}`-based approach for lyfecycle management of various resources in Kubernetes and OpenShift. Using the Operator pattern, you can leverage the Kubernetes control loop and react on various events in the cluster. The idea of the operator patern is to encapsulate the operational knowledge into the abovementioned control loop and declarative approach.
+`{CRD|ConfigMap}`-based approach for lifecycle management of various resources in Kubernetes and OpenShift. Using the Operator pattern, you can leverage the Kubernetes control loop and react on various events in the cluster. The idea of the operator patern is to encapsulate the operational knowledge into the abovementioned control loop and declarative approach.
 
 ## Example Implementations
 * [spark-operator](https://github.com/radanalyticsio/spark-operator) - Java operator for managing Apache Spark clusters and apps
